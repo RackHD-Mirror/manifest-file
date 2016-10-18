@@ -1,54 +1,52 @@
 {
-    "build-name": "onrack-devel",
-    "build-requirements": "",  
-    "downstream-jobs": [ 
-    ],  
-
-    "repositories": [
-        {
-            "branch": "master", 
-            "commit-id": "9a0138789faa41ac8afefcbd39bdbc237e3da2f7", 
-            "repository": "https://github.com/RackHD-Mirror/RackHD.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "0ff30a0ffefe1f8abe6978a1a3b38626c2eaec60", 
-            "repository": "https://github.com/RackHD-Mirror/on-core.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "3ed85770abc15b1a79f66db981ad4b81c01362ca", 
-            "repository": "https://github.com/RackHD-Mirror/on-dhcp-proxy.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "3b09722a7ba7c05f6c8097eee35e4520ef978cfd", 
-            "repository": "https://github.com/RackHD-Mirror/on-http.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "5c0c563d0803b90ef871e6c05f66edea35b6d919", 
-            "repository": "https://github.com/RackHD-Mirror/on-syslog.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "e6ad801df53a32ef4b963f3723b93b09ad24b364", 
-            "repository": "https://github.com/RackHD-Mirror/on-taskgraph.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "a690c64be1a2aac95224879322c172b58de3ce47", 
-            "repository": "https://github.com/RackHD-Mirror/on-tasks.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "6982ccff172c35f6b113e95bc5eb23fc0168daaa", 
-            "repository": "https://github.com/RackHD-Mirror/on-tftp.git"
-        }, 
-        {
-            "branch": "master", 
-            "commit-id": "bf06469520b4eb480157a73f60011ea1c3c8bb98", 
-            "repository": "https://github.com/RackHD-Mirror/on-skupack.git"
-        } 
-    ]
+	 "build-name": "onrack-devel",
+	 "build-requirements": "",
+	 "downstream-jobs": [],
+	 "repositories": [
+	{
+		"branch": "master",
+		"commit-id": "0ff30a0ffefe1f8abe6978a1a3b38626c2eaec60",
+		"repository": "https://github.com/RackHD-Mirror/on-core.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "3b09722a7ba7c05f6c8097eee35e4520ef978cfd",
+		"repository": "https://github.com/RackHD-Mirror/on-http.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "6982ccff172c35f6b113e95bc5eb23fc0168daaa",
+		"repository": "https://github.com/RackHD-Mirror/on-tftp.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "3ed85770abc15b1a79f66db981ad4b81c01362ca",
+		"repository": "https://github.com/RackHD-Mirror/on-dhcp-proxy.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "5c0c563d0803b90ef871e6c05f66edea35b6d919",
+		"repository": "https://github.com/RackHD-Mirror/on-syslog.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "49a6e381b3c3e8bc84cbad29c77389227703e12c",
+		"repository": "https://github.com/RackHD-Mirror/on-skupack.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "a690c64be1a2aac95224879322c172b58de3ce47",
+		"repository": "https://github.com/RackHD-Mirror/on-tasks.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "e6ad801df53a32ef4b963f3723b93b09ad24b364",
+		"repository": "https://github.com/RackHD-Mirror/on-taskgraph.git" 
+	},
+	{
+		"branch": "master",
+		"commit-id": "b42e26119976689ff2e6ce281a1f295a7df2159a",
+		"repository": "https://github.com/RackHD-Mirror/RackHD.git" 
+	}
+	]
 }
