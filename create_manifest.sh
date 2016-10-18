@@ -1,10 +1,10 @@
-repos=(on-core on-http on-tftp on-dhcp-proxy on-syslog on-skupack on-tasks on-taskgraph )
+repos=(on-core on-http on-tftp on-dhcp-proxy on-syslog on-skupack on-tasks on-taskgraph RackHD )
 branch=$1
 
 
 echo {
 echo -e "\t \"build-name\": \"onrack-devel\","
-echo -e "\t \"build-requirements\": \","
+echo -e "\t \"build-requirements\": \"\","
 echo -e "\t \"downstream-jobs\": [],"
 echo -e "\t \"repositories\": ["
 
