@@ -7,6 +7,11 @@
     "repositories": [
         {
             "branch": "master", 
+            "commit-id": "9a0138789faa41ac8afefcbd39bdbc237e3da2f7", 
+            "repository": "https://github.com/RackHD-Mirror/RackHD.git"
+        }, 
+        {
+            "branch": "master", 
             "commit-id": "0ff30a0ffefe1f8abe6978a1a3b38626c2eaec60", 
             "repository": "https://github.com/RackHD-Mirror/on-core.git"
         }, 
