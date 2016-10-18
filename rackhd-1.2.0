@@ -44,9 +44,9 @@
 		"repository": "https://github.com/RackHD-Mirror/on-taskgraph.git" 
 	},
 	{
-		"branch": "master",
+		"branch": "feature/rackhd-deb",
 		"commit-id": "b42e26119976689ff2e6ce281a1f295a7df2159a",
-		"repository": "https://github.com/RackHD-Mirror/RackHD.git" 
+		"repository": "https://github.com/PengTian0/RackHD.git" 
 	}
 	]
 }
