@@ -10,8 +10,8 @@ echo -e "\t \"repositories\": ["
 
 
 for k in ${repos[@]} ;do
-#    rm ${k} -rf
-#    git clone https://github.com/RackHD/${k}.git
+    rm ${k} -rf
+    git clone https://github.com/RackHD/${k}.git
     cd ${k}
     hash=$(git rev-parse HEAD)
     echo -e  "\t{"
