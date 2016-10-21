@@ -1,0 +1,43 @@
+{
+	 "build-name": "onrack-devel",
+	 "build-requirements": "",
+	 "downstream-jobs": [],
+	 "repositories": [
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-core.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-http.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-tftp.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-dhcp-proxy.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-syslog.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-skupack.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-tasks.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/on-taskgraph.git" 
+	},
+	{
+		"branch": "master",
+		"repository": "https://github.com/RackHD-Mirror/RackHD.git" 
+	}
+	]
+}
